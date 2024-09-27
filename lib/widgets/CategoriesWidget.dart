@@ -5,7 +5,6 @@ class CategoriesWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Updated category names and icons
     List<Map<String, dynamic>> categories = [
       {'name': 'Makanan', 'icon': Icons.fastfood},
       {'name': 'Fashion', 'icon': Icons.checkroom}, 
